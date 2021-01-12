@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-assignment",
+            "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-assignment"
+    }
+  },
+  "defaultProject": "angular-assignment",
+  "cli": {
+    "analytics": "85248ab6-c4b3-44db-acbc-b9a35e829b72"
+  }
 }
