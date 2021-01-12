@@ -1,6 +1,7 @@
 {
   "name": "angular-assignment",
   "version": "0.0.0",
+  "homepage":"https://anand10bundela.github.io/angular-assignment",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
