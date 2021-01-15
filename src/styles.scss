@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap") format("ttf");
+}
+
+
+body {
+    font-family: "Montserrat-Regular";
+    font-size: 18px;
+    background: #FCFCFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+
+    body,
+    html {
+        height: 100%;
+        overflow-x: hidden;
+    }
+}
