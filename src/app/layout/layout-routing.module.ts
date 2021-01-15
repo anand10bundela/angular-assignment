@@ -9,10 +9,10 @@ const routes: Routes = [
     component: DefaultComponent,
     children: [
       {
-        path: 'home',
+        path: '',
         component: HomeComponent,
       },
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: '', redirectTo: '', pathMatch: 'full' },
     ],
   },
 ];
