@@ -12,32 +12,63 @@
                 left: 120px;
                 width: 123px;
                 height: 123px;
-                background: transparent url('../../../../assets/images/logo.png') 0% 0% no-repeat padding-box;
                 opacity: 1;
+                position: absolute;
+
             }
         }
 
         .left-title-box {
 
             .heading {
-                h2 {
-                    font-family: "Montserrat-Medium";
+                .heading-title {
+                    position: absolute;
+                    font-family: 'Montserrat', sans-serif;
                     top: 270px;
                     left: 189px;
                     width: 407px;
-                    height: 98px;
+                    height: 96px;
                     opacity: 1;
                     font-size: 40px;
                 }
 
                 .heading-bottom-line {
+                    position: absolute;
+                    top: 376px;
+                    left: 192px;
+                    width: 236px;
+                    height: 8px;
                     background: #000000 0% 0% no-repeat padding-box;
                     border-radius: 13px;
                     opacity: 0.7;
                 }
             }
 
+            .heading-bg-img img {
+                position: absolute;
+                top: 213px;
+                left: -179px;
+                width: 571px;
+                height: 572px;
+                opacity: 1;
+                z-index: -1;
+            }
 
+            .heading-img img {
+                position: absolute;
+                top: 466px;
+                left: 136px;
+                width: 652px;
+                height: 365px;
+            }
+
+            .heading-bg-dotted-img img {
+                position: absolute;
+                top: 796px;
+                left: 462px;
+                width: 430px;
+                height: 70px;
+            }
         }
     }
 
@@ -49,25 +80,102 @@
             float: right;
             text-align: left;
             list-style: none;
+            width: 65%;
 
             .nav-item {
+                position: absolute;
+                text-align: left;
+                font: normal normal normal 25px/34px Open Sans;
+                letter-spacing: 0px;
+                color: #222222;
+                opacity: 1;
                 top: 68px;
-                left: 1030px;
-                width: 103px;
                 height: 34px;
 
                 a {
-                    // font: normal normal normal 25px/34px Open Sans;
                     letter-spacing: 0px;
                     color: #222222;
                     opacity: 1;
                     text-decoration: none;
                 }
-
-                .login-btn {}
-
-                .get-started {}
             }
+
+            .nav-item:first-child {
+                left: 1030px;
+                width: 103px;
+            }
+
+            .nav-item:nth-child(2) {
+                left: 1183px;
+                width: 108px;
+            }
+
+            .nav-item:nth-child(3) {
+                left: 1341px;
+                width: 79px;
+            }
+
+            .nav-item:nth-child(4) {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+
+                top: 63px;
+                left: 1480px;
+                width: 114px;
+                height: 42px;
+                border: 2px solid #663399;
+                border-radius: 24px;
+                opacity: 1;
+
+
+                a {
+                    position: absolute;
+                    top: 5px;
+                    left: 34px;
+                    width: 46px;
+                    height: 19px;
+                    text-align: center;
+                    letter-spacing: 0px;
+                    color: #663399;
+                    opacity: 1;
+                }
+            }
+
+            .nav-item:nth-child(5) {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+
+                top: 63px;
+                left: 1622px;
+                width: 166px;
+                height: 45px;
+                background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 20px #00000033;
+                border-radius: 24px;
+                opacity: 1;
+
+                a {
+                    position: absolute;
+                    top: 6px;
+                    left: 34px;
+                    width: 95px;
+                    height: 19px;
+                    text-align: center;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .eligibility-calculator img {
+            position: absolute;
+            top: 270px;
+            left: 1100px;
+            width: 688px;
+            height: 675px;
         }
 
         .baner-chart img {
@@ -76,8 +184,17 @@
             left: 852px;
             width: 1183px;
             height: 1192px;
-            opacity: 0.5;
+            opacity: 1;
             z-index: -1;
+        }
+
+        .baner-chart-dotted-img img {
+            position: absolute;
+            top: 936px;
+            left: 1458px;
+            width: 430px;
+            height: 70px;
+            opacity: 1;
         }
     }
 

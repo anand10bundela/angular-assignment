@@ -8,12 +8,10 @@ import { ComponentsModule } from './components/components.module';
 import { DefaultComponent } from './containers/default/default.component';
 import { InterfacesModule } from './interfaces/interfaces.module';
 import { PipesModule } from './pipes/pipes.module';
-import { HomeComponent } from './views/home/home.component';
 
 @NgModule({
   declarations: [
     DefaultComponent,
-    HomeComponent,
   ],
   imports: [
     CommonModule,
