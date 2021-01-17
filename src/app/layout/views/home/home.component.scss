@@ -8,7 +8,7 @@
 
         .navbar-brand {
             img {
-                top: 27px;
+                top: 28px;
                 left: 120px;
                 width: 123px;
                 height: 123px;
@@ -24,12 +24,13 @@
                 .heading-title {
                     position: absolute;
                     font-family: 'Montserrat', sans-serif;
-                    top: 270px;
+                    top: 271px;
                     left: 189px;
                     width: 407px;
                     height: 96px;
                     opacity: 1;
                     font-size: 40px;
+                    font-weight: 500;
                 }
 
                 .heading-bottom-line {
@@ -89,7 +90,7 @@
                 letter-spacing: 0px;
                 color: #222222;
                 opacity: 1;
-                top: 68px;
+                top: 69px;
                 height: 34px;
 
                 a {
@@ -116,22 +117,21 @@
             }
 
             .nav-item:nth-child(4) {
-                font-family: 'Montserrat', sans-serif;
+                font-family: "Montserrat", sans-serif;
                 font-size: 16px;
                 font-weight: 500;
-
-                top: 63px;
+                top: 64px;
+                position: absolute;
                 left: 1480px;
                 width: 114px;
-                height: 42px;
+                height: 41px;
                 border: 2px solid #663399;
                 border-radius: 24px;
                 opacity: 1;
 
-
                 a {
                     position: absolute;
-                    top: 5px;
+                    top: 4px;
                     left: 34px;
                     width: 46px;
                     height: 19px;
@@ -146,8 +146,8 @@
                 font-family: 'Montserrat', sans-serif;
                 font-size: 16px;
                 font-weight: 500;
-
-                top: 63px;
+                position: absolute;
+                top: 64px;
                 left: 1622px;
                 width: 166px;
                 height: 45px;
@@ -159,7 +159,7 @@
                 a {
                     position: absolute;
                     top: 6px;
-                    left: 34px;
+                    left: 35px;
                     width: 95px;
                     height: 19px;
                     text-align: center;
@@ -170,19 +170,239 @@
             }
         }
 
-        .eligibility-calculator img {
+        .eligibility-calculator {
             position: absolute;
             top: 270px;
             left: 1100px;
             width: 688px;
             height: 675px;
+
+            .price-range-slider {
+                position: absolute;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 30px #0000000F;
+                border-radius: 20px;
+                opacity: 1;
+                top: 9px;
+                width: 470px;
+                height: 666px;
+                text-align: center;
+
+                .slider-heading {
+                    position: relative;
+                    top: -10px;
+                    left: 9px;
+                    width: 464px;
+                    height: 72px;
+                    background: rgba(232, 235, 243, 0.2) 0% 0% no-repeat padding-box;
+                    border-radius: 20px 20px 0px 0px;
+
+                    span {
+                        height: 70px;
+                        position: relative;
+                        top: 17px;
+                        left: 3px;
+                        letter-spacing: 0px;
+                        color: #222222;
+                        opacity: 1;
+                        font-size: 22px;
+                        font: normal normal normal 22px/40px Open Sans;
+                    }
+
+                }
+
+                .sliders-form {
+                    position: relative;
+                    text-align: left;
+                    font-family: "Montserrat", sans-serif;
+                    top: 27px;
+                    left: 58px;
+
+                    .group-13 {
+                        width: 371px;
+                        height: 106px;
+                        letter-spacing: 0px;
+                        margin-bottom: 42px;
+
+                        label {
+                            width: 124px;
+                            height: 19px;
+                            font-size: 15px;
+                            color: #222222;
+                        }
+
+                        .price-selected {
+                            width: 134px;
+                            height: 29px;
+                            color: #222222;
+                            font-size: 25px;
+                            font-weight: 500;
+                            margin: 0;
+                            padding: 10px 0px;
+                        }
+
+                        .group-16 {
+                            width: 370px;
+                            height: 20px;
+                            top: 70px;
+                            left: 0px;
+                            position: absolute;
+                            padding: 8px 0px;
+
+                            .rectangle {
+                                width: 370px;
+                                height: 4px;
+                                background: rgba(241, 245, 251, 1) 0% 0% no-repeat padding-box;
+                                border-radius: 4px;
+
+                                .rectangle {
+                                    width: 230px;
+                                    height: 4px;
+                                    background: rgba(102, 51, 153, 1) 0% 0% no-repeat padding-box;
+                                    border-radius: 4px;
+
+                                    .circle {
+                                        top: 0px;
+                                        left: 219px;
+                                        position: absolute;
+                                        width: 20px;
+                                        height: 20px;
+                                        background: white 0% 0% no-repeat padding-box;
+                                        box-shadow: 0px 1px 4px rgba(57, 48, 127, 0.15);
+                                        border-radius: 20px;
+
+                                        .oval {
+                                            top: 5px;
+                                            left: 5px;
+                                            width: 10px;
+                                            height: 10px;
+                                            background: rebeccapurple 0% 0% no-repeat padding-box;
+                                            position: absolute;
+                                            border-radius: 15px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .price-range {
+                            top: 22px;
+                            color: #999999;
+                            font-size: 12px;
+                            margin: 0;
+                            position: relative;
+                            height: 17px;
+
+                            .maximum {
+                                left: 1448px;
+                                position: sticky;
+                            }
+                        }
+                    }
+
+                    .group-14 {
+                        width: 371px;
+                        height: 106px;
+                        letter-spacing: 0px;
+                        margin-bottom: 42px;
+
+                        label {
+                            width: 124px;
+                            height: 19px;
+                            font-size: 15px;
+                            color: #222222;
+                        }
+
+                        .price-selected {
+                            width: 134px;
+                            height: 29px;
+                            color: #222222;
+                            font-size: 25px;
+                            font-weight: 500;
+                            margin: 0;
+                            padding: 8px 0px;
+                        }
+
+                        .group-16 {
+                            width: 370px;
+                            height: 20px;
+                            top: 215px;
+                            left: 0px;
+                            position: absolute;
+                            padding: 8px 0px;
+
+                            .rectangle {
+                                width: 370px;
+                                height: 4px;
+                                background: rgba(241, 245, 251, 1) 0% 0% no-repeat padding-box;
+                                border-radius: 4px;
+
+                                .rectangle {
+                                    width: 230px;
+                                    height: 4px;
+                                    background: rgba(102, 51, 153, 1) 0% 0% no-repeat padding-box;
+                                    border-radius: 4px;
+
+                                    .circle {
+                                        top: 0px;
+                                        left: 219px;
+                                        position: absolute;
+                                        width: 20px;
+                                        height: 20px;
+                                        background: white 0% 0% no-repeat padding-box;
+                                        box-shadow: 0px 1px 4px rgba(57, 48, 127, 0.15);
+                                        border-radius: 20px;
+
+                                        .oval {
+                                            top: 5px;
+                                            left: 5px;
+                                            width: 10px;
+                                            height: 10px;
+                                            background: rebeccapurple 0% 0% no-repeat padding-box;
+                                            position: absolute;
+                                            border-radius: 15px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .group-9 {
+                        width: 371px;
+                        height: 106px;
+                        letter-spacing: 0px;
+
+                        label {
+                            width: 124px;
+                            height: 19px;
+                            font-size: 15px;
+                            color: #222222;
+                        }
+                    }
+
+                    .group-22 {}
+                }
+            }
+
+            .get-money-container {
+                position: absolute;
+                top: 108px;
+                left: 479px;
+                width: 209px;
+                height: 450px;
+                background: #663399 0% 0% no-repeat padding-box;
+                box-shadow: 7px 7px 25px #00000033;
+                border-radius: 0px 20px 20px 0px;
+                opacity: 1;
+            }
         }
 
         .baner-chart img {
             position: absolute;
-            top: -227.9068603515625px;
+            top: -224.90686px;
             left: 852px;
-            width: 1183px;
+            width: 1184px;
             height: 1192px;
             opacity: 1;
             z-index: -1;
@@ -195,6 +415,7 @@
             width: 430px;
             height: 70px;
             opacity: 1;
+            z-index: -1;
         }
     }
 

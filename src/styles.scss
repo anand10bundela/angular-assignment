@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 @font-face {
     font-family: "Montserrat-Regular";
@@ -13,6 +13,9 @@ body {
     font-size: 18px;
     background: #FCFCFF 0% 0% no-repeat padding-box;
     opacity: 1;
+    // overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 
