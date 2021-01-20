@@ -1,6 +1,12 @@
 .container {
     display: flex;
 
+    select:focus,
+    button:focus,
+    input:focus {
+        outline: none;
+    }
+
     .top-left-container {
         width: 30%;
         margin-top: 27px;
@@ -304,7 +310,7 @@
                         width: 371px;
                         height: 106px;
                         letter-spacing: 0px;
-                        margin-bottom: 42px;
+                        margin-bottom: 22px;
 
                         label {
                             width: 124px;
@@ -379,9 +385,84 @@
                             font-size: 15px;
                             color: #222222;
                         }
+
+
+
+                        .form_input_select {
+                            text-align: left;
+                            letter-spacing: 0px;
+                            color: #222222;
+                            width: 100%;
+                            border: 0;
+                            background: transparent;
+                            border-bottom: 1px solid #a59e9e8f;
+                            padding: 7px 0px;
+                            font-size: 25px;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 500;
+
+                            &:before {
+                                width: 15px;
+                                height: 7px;
+                                background: #000000 0% 0% no-repeat padding-box;
+                                opacity: 0.58;
+                            }
+                        }
                     }
 
-                    .group-22 {}
+                    .group-22 {
+                        width: 371px;
+                        margin-bottom: 37px;
+
+                        label {
+                            font-size: 15px;
+                        }
+
+                        .cm-toggle {
+                            float: right;
+                            -webkit-appearance: none;
+                            -webkit-tap-highlight-color: transparent;
+                            position: relative;
+                            border: 0;
+                            outline: 0;
+                            cursor: pointer;
+                            margin: 0px;
+                        }
+
+                        .cm-toggle:after {
+                            content: "";
+                            display: inline-block;
+                            background: #663399 0% 0% no-repeat padding-box;
+                            border-radius: 18px;
+                            clear: both;
+                            margin-top: 4px;
+                            width: 27px;
+                            height: 16px;
+                        }
+
+                        .cm-toggle:before {
+                            content: "";
+                            width: 14px;
+                            height: 13px;
+                            display: block;
+                            position: absolute;
+                            left: 12px;
+                            top: 5px;
+                            border-radius: 50%;
+                            background: white;
+                            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+                        }
+
+
+                        .cm-toggle:checked:before {
+                            left: 0px;
+                            box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);
+                        }
+
+                        .cm-toggle:checked:after {
+                            background: rgba(196, 195, 195, 0.55);
+                        }
+                    }
                 }
             }
 
@@ -395,28 +476,88 @@
                 box-shadow: 7px 7px 25px #00000033;
                 border-radius: 0px 20px 20px 0px;
                 opacity: 1;
+
+                .group-21 {
+                    position: relative;
+                    top: 108px;
+                    left: 25px;
+                    width: 143px;
+                    height: 226px;
+
+                    .section-row {
+                        width: 159px;
+                        height: 89px;
+                        text-align: center;
+
+                        label {
+                            width: 124px;
+                            height: 22px;
+                            text-align: center;
+                            letter-spacing: 0px;
+                            color: #FFFFFF;
+                            opacity: 0.7;
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 18px;
+                        }
+
+                        span {
+                            height: 36px;
+                            letter-spacing: 0px;
+                            color: #FFFFFF;
+                            opacity: 1;
+                            display: block;
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 25px;
+                            position: relative;
+                            top: -2px;
+                            right: 2px;
+                            font-weight: 500;
+                        }
+
+                        button {
+                            width: 160px;
+                            height: 48px;
+                            background: #FFFFFF 0% 0% no-repeat padding-box;
+                            box-shadow: 0px 0px 20px #00000033;
+                            border-radius: 24px;
+                            margin-top: 5px;
+                            border: 0;
+                            cursor: pointer;
+
+                            span {
+                                text-align: center;
+                                letter-spacing: 0px;
+                                color: #663399;
+                                text-transform: uppercase;
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 14px;
+                                font-weight: 500;
+                                padding: 16px 0 0 3px;
+                            }
+                        }
+                    }
+                }
             }
-        }
-
-        .baner-chart img {
-            position: absolute;
-            top: -224.90686px;
-            left: 852px;
-            width: 1184px;
-            height: 1192px;
-            opacity: 1;
-            z-index: -1;
-        }
-
-        .baner-chart-dotted-img img {
-            position: absolute;
-            top: 936px;
-            left: 1458px;
-            width: 430px;
-            height: 70px;
-            opacity: 1;
-            z-index: -1;
         }
     }
 
+    .baner-chart img {
+        position: absolute;
+        top: -224.90686px;
+        left: 852px;
+        width: 1184px;
+        height: 1192px;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    .baner-chart-dotted-img img {
+        position: absolute;
+        top: 936px;
+        left: 1458px;
+        width: 430px;
+        height: 70px;
+        opacity: 1;
+        z-index: -1;
+    }
 }
